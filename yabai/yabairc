@@ -1,0 +1,33 @@
+#!/usr/bin/env sh
+
+# General Settings
+yabai -m config layout bsp
+yabai -m config mouse_follows_focus off
+yabai -m config focus_follows_mouse off
+yabai -m config window_placement second_child
+yabai -m config window_topmost off
+yabai -m config window_shadow on
+yabai -m config external_bar none
+
+# Padding and Gaps (You can adjust these values)
+yabai -m config top_padding 5
+yabai -m config bottom_padding 5
+yabai -m config left_padding 5
+yabai -m config right_padding 5
+yabai -m config window_gap 5
+
+# Prohibit moving a window with the mouse
+yabai -m config mouse_modifier alt
+yabai -m config mouse_action1 none
+
+# Prohibit resizing a window with the mouse
+yabai -m config mouse_action2 none
+
+# Enable border for the focused window
+yabai -m config window_border on
+yabai -m config window_border_width 4
+yabai -m config active_window_border_color 0xff62aee6
+yabai -m config window_opacity off
+yabai -m config window_shadow off
+
+borders active_color=0xff62aee6 inactive_color=0xff494d64 width=5.0 &
