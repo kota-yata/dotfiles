@@ -1,1 +1,9 @@
-cursor-style = block
+cken = true
+cursor-style-blink = false
+background-opacity = 0.9
+background-blur-radius = 20
+command = /opt/homebrew/bin/tmux
+click-repeat-interval = 500
+macos-icon-ghost-color = #468a9a
+macos-icon-screen-color = #eeeeee
+auto-update-channel = stable
