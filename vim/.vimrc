@@ -1,5 +1,6 @@
 call plug#begin('~/.vim/plugged')
 
+Plug 'airblade/vim-gitgutter'
 Plug 'github/copilot.vim'
 Plug 'preservim/nerdtree'
 
